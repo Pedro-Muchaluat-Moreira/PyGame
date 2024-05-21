@@ -39,7 +39,8 @@ clock = pygame.time.Clock()
 
 def desenha_passaro(x, y):
     pygame.draw.rect(tela, PRETO, (x, y, largura_passaro, altura_passaro))
-
+    return
+pygame.sprite.Group 
 def desenha_cano(x, altura_topo, altura_base):
     pygame.draw.rect(tela, VERDE, (x, 0, largura_cano, altura_topo))
     pygame.draw.rect(tela, VERDE, (x, altura_base, largura_cano, altura_tela - altura_base))
@@ -54,7 +55,7 @@ def colisao(x_passaro, y_passaro, x_cano, altura_topo, altura_base):
 
 def tela_inicial():
     tela.fill(BRANCO)
-    titulo = font.render("Flappy Bird", True, PRETO)
+    titulo = font.render("Dribol", True, PRETO)
     instrucoes = font.render("Pressione ESPAÇO para jogar", True, PRETO)
     tela.blit(titulo, (largura_tela // 2 - titulo.get_width() // 2, altura_tela // 3))
     tela.blit(instrucoes, (largura_tela // 2 - instrucoes.get_width() // 2, altura_tela // 2))

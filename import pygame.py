@@ -37,11 +37,11 @@ score = 0
 font = pygame.font.SysFont(None, 35)
 clock = pygame.time.Clock()
 
-def desenha_passaro(x, y):
+def bola(x, y):
     pygame.draw.rect(tela, PRETO, (x, y, largura_passaro, altura_passaro))
     return
 pygame.sprite.Group 
-def desenha_cano(x, altura_topo, altura_base):
+def obstaculo(x, altura_topo, altura_base):
     pygame.draw.rect(tela, VERDE, (x, 0, largura_cano, altura_topo))
     pygame.draw.rect(tela, VERDE, (x, altura_base, largura_cano, altura_tela - altura_base))
 

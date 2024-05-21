@@ -1,1 +1,1 @@
-# PyGame
+O jogo flappy bird -2013- rapidamente ascendeu a popularidade, com seu objetivo extremamente simples, porém altamente viciante, o qual coloca o jogador em uma batalha com si próprio em busca de um highscore maior. Com um jogo tão popular como inspiração, João Alexandre e Pedro Muchaluat indoduzem o Dribol, adaptando o cenário original de Flappy Bird para um contexto mais cotidiano e famoso, FUTEBOL. O objetvo permanece o mesmo, obter a maior distancia possível, driblando jogadores no campo a caminho do tão esperado gol.

@@ -8,7 +8,7 @@ pygame.init()
 largura_tela = 400
 altura_tela = 600
 tela = pygame.display.set_mode((largura_tela, altura_tela))
-pygame.display.set_caption("Flappy Bird")
+pygame.display.set_caption("Dribol")
 
 # Cores
 BRANCO = (255, 255, 255)
